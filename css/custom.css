@@ -1,0 +1,13 @@
+/* Add to your custom.css file */
+
+/* Default padding for main content */
+.main {
+    padding-top: 120px; /* Initial header height */
+    transition: padding-top 0.3s ease;
+  }
+  
+  /* Adjust padding when header shrinks */
+  .header-effect-shrink.header-shrink + .main {
+    padding-top: 70px; /* Adjust to match the shrunk header height */
+  }
+  
