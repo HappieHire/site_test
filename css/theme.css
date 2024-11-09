@@ -12199,6 +12199,10 @@ h6 .inverted {
 	font-size: 1.50em !important;
 }
 
+.text-hh {
+	font-size: 3.0em !important;
+}
+
 .text-5-6,
 .text-5-5 {
 	font-size: 1.65em !important;
@@ -13957,6 +13961,11 @@ html.dark .text-muted {
 .font-weight-extrabold,
 .font-weight-extra-bold {
 	font-weight: 800 !important;
+}
+
+.font-weight-extra-bold2 {
+	font-weight: 800 !important;
+	color: #09c0a4
 }
 
 .font-weight-black {
