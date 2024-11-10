@@ -11,3 +11,34 @@
     padding-top: 70px; /* Adjust to match the shrunk header height */
   }
   
+
+  .logo-slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo-slide {
+    display: flex;
+    align-items: center;
+    animation: scroll 30s linear infinite;
+}
+
+.logo-slide:hover {
+    animation-play-state: paused;
+}
+
+.logo-slide img {
+    padding: 0 20px;
+    height: 80px; /* Adjust as needed */
+    flex-shrink: 0;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
