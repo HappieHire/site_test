@@ -15,6 +15,8 @@
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
@@ -109,18 +111,15 @@
 
 			<div role="main" class="main">
 
-				<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
-				<div id="googlemaps" class="google-map mt-0" style="height: 500px;"></div>
-
 				<div class="container">
 
 					<div class="row py-4">
 						<div class="col-lg-6">
 
-							<h2 class="font-weight-bold text-8 mt-2 mb-0">Contact Us</h2>
-							<p class="mb-4">Feel free to ask for details, don't save any questions!</p>
+							<h2 class="font-weight-bold text-8 mt-2 mb-0">Apply for an opening</h2>
+							<p class="mb-4">Tell us about you...</p>
 
-							<form class="contact-form" action="php/contact-form.php" method="POST">
+							<form action="https://formspree.io/f/mrbgkeqq" method="POST">
 								<div class="contact-form-success alert alert-success d-none mt-4">
 									<strong>Success!</strong> Your message has been sent to us.
 								</div>
@@ -147,6 +146,25 @@
 									</div>
 								</div>
 								<div class="row">
+									<div class="form-group col-lg-6">
+										<label class="form-label mb-1 text-2">Role</label>
+										<select name="role" class="form-control text-3 h-auto py-2" required>
+											<option value="" disabled selected>Select Your Role</option>
+											<option value="Java Developer – Backend">Java Developer – Backend</option>
+											<option value="Automation Tester - Appium">Automation Tester - Appium</option>
+											<option value="Selenium Automation Tester">Selenium Automation Tester</option>
+											<option value="Performance Marketing Lead">Performance Marketing Lead</option>
+											<option value="US Healthcare AR Caller - Expertise in Hospital Billing">US Healthcare AR Caller - Expertise in Hospital Billing</option>
+											<option value="US Healthcare AR Caller - Expertise in Physician Billing">US Healthcare AR Caller - Expertise in Physician Billing</option>
+											<option value="US Healthcare Senior AR Caller">US Healthcare Senior AR Caller</option>
+											<option value="US Healthcare AR Caller SME (Subject Matter Expert)">US Healthcare AR Caller SME (Subject Matter Expert)</option>
+											<option value="US Healthcare AR Caller Team Lead (TL)">US Healthcare AR Caller Team Lead (TL)</option>
+											<option value="US Healthcare QA Expert in Hospital Billing">US Healthcare QA Expert in Hospital Billing</option>
+											<option value="US Healthcare Medical Coder">US Healthcare Medical Coder</option>
+										</select>
+									</div>
+								</div>
+								<div class="row">
 									<div class="form-group col">
 										<label class="form-label mb-1 text-2">Message</label>
 										<textarea maxlength="5000" data-msg-required="Please enter your message." rows="8" class="form-control text-3 h-auto py-2" name="message" required></textarea>
@@ -154,41 +172,14 @@
 								</div>
 								<div class="row">
 									<div class="form-group col">
-										<input type="submit" value="Send Message" class="btn btn-primary btn-modern" data-loading-text="Loading...">
+										<input type="submit" value="Submit" class="btn btn-primary btn-modern" data-loading-text="Loading...">
 									</div>
 								</div>
 							</form>
 
 						</div>
-						<div class="col-lg-6">
-
-							<div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="800">
-								<h4 class="mt-2 mb-1">Our <strong>Office</strong></h4>
-								<ul class="list list-icons list-icons-style-2 mt-2">
-									<li><i class="fas fa-map-marker-alt top-6"></i> <strong class="text-dark">Address:</strong> Melbourne, 121 King St, Australia</li>
-									<li><i class="fas fa-phone top-6"></i> <strong class="text-dark">Phone:</strong> (123) 456-789</li>
-									<li><i class="fas fa-envelope top-6"></i> <strong class="text-dark">Email:</strong> <a href="mailto:mail@example.com">mail@example.com</a></li>
-								</ul>
-							</div>
-
-							<div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="950">
-								<h4 class="pt-5">Business <strong>Hours</strong></h4>
-								<ul class="list list-icons list-dark mt-2">
-									<li><i class="far fa-clock top-6"></i> Monday - Friday - 9am to 5pm</li>
-									<li><i class="far fa-clock top-6"></i> Saturday - 9am to 2pm</li>
-									<li><i class="far fa-clock top-6"></i> Sunday - Closed</li>
-								</ul>
-							</div>
-
-							<h4 class="pt-5">Get in <strong>Touch</strong></h4>
-							<p class="lead mb-0 text-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-						</div>
-
 					</div>
-
 				</div>
-
 			</div>
 
 
@@ -203,16 +194,15 @@
 								<img alt="Porto Website Template" src="img/logo.png" class="opacity-7 bottom-4" height="32">
 							</a>
 							<p class="mt-2 mb-2">Founded by three seasoned professionals with over 12 years of experience each, HappieHire brings a wealth of expertise and a deep understanding of the industry to every client engagement. We are committed to delivering tailored HR solutions that drive business success. Our collective experience at top tier organisations, coupled with a passion for people, allows us to offer strategic insights and innovative approaches to meet the unique needs of your organization.</p>
-							<p class="mb-0"><a href="#" class="btn-flat btn-xs text-color-light"><strong class="text-2">VIEW MORE</strong><i class="fas fa-angle-right p-relative top-1 ps-2"></i></a></p>
 						</div>
 						<div class="col-md-6">
 							<h5 class="text-3 mb-3">CONTACT US</h5>
 							<div class="row">
 								<div class="col-md-6">
 									<ul class="list list-icons list-icons-lg">
-										<li class="mb-1"><i class="far fa-dot-circle text-color-primary"></i><p class="m-0">1, Dubai Kuruku Sandu, Dubai Main Road, Dubai</p></li>
-										<li class="mb-1"><i class="fab fa-whatsapp text-color-primary"></i><p class="m-0"><a href="tel:8001234567">(800) 123-4567</a></p></li>
-										<li class="mb-1"><i class="far fa-envelope text-color-primary"></i><p class="m-0"><a href="mailto:mail@example.com">mail@example.com</a></p></li>
+										<li class="mb-1"><i class="far fa-dot-circle text-color-primary"></i><p class="m-0">AIC DSU, Kudlu gate, Bengaluru 560 068</p></li>
+										<li class="mb-1"><i class="fab fa-whatsapp text-color-primary"></i><p class="m-0"><a href="tel:8001234567">(+91) 96200 99277</a></p></li>
+										<li class="mb-1"><i class="far fa-envelope text-color-primary"></i><p class="m-0"><a href="mailto:mail@example.com">sales@happiehire.com</a></p></li>
 									</ul>
 								</div>
 							</div>
@@ -247,65 +237,6 @@
 
 	<!-- Current Page Vendor and Views -->
 		<script src="js/views/view.contact.js"></script>
-
-		<!-- Google Maps -->
-		<script>
-
-			/* 
-			Map Markers:
-			- Get an API Key: https://developers.google.com/maps/documentation/javascript/get-api-key
-			- Generate Map Id: https://console.cloud.google.com/google/maps-apis/studio/maps
-			- Use https://www.latlong.net/convert-address-to-lat-long.html to get Latitude and Longitude of a specific address
-			*/
-			(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
-				({key: "YOUR_API_KEY", v: "weekly"});
-
-			async function initMap() {
-				const { Map, InfoWindow } = await google.maps.importLibrary("maps");
-				const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary(
-					"marker",
-				);
-				const map = new Map(document.getElementById("googlemaps"), {
-					zoom: 14,
-					center: { lat: -37.817240, lng: 144.955820 },
-					mapId: "YOUR_MAP_API_ID",
-				});
-				const markers = [
-					{
-						position: { lat: -37.817240, lng: 144.955820 },
-						title: "Office 1<br>Melbourne, 121 King St, Australia<br>Phone: 123-456-1234",
-					}
-				];
-
-				const infoWindow = new InfoWindow();
-
-				markers.forEach(({ position, title }, i) => {
-					const pin = new PinElement({
-						background: "#e36159",
-						borderColor: "#e36159",
-						glyphColor: "#FFF",
-					});
-					const marker = new AdvancedMarkerElement({
-						position,
-						map,
-						title: `${title}`,
-						content: pin.element,
-					});
-
-					marker.addListener("click", ({ domEvent, latLng }) => {
-						const { target } = domEvent;
-
-						infoWindow.close();
-						infoWindow.setContent(marker.title);
-						infoWindow.open(marker.map, marker);
-					});
-				});	
-
-			}
-
-			initMap();	
-
-		</script>
 
 	</body>
 </html>
