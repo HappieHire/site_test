@@ -17291,30 +17291,40 @@ html.gap-outside .pin-wrapper .sticky-wrapper.sticky-effect-active .sticky-body 
 .logo-slider {
     position: relative;
     width: 100%;
-    overflow: hidden;
+    overflow: hidden; /* Ensures logos outside the container are hidden */
 }
 
 .logo-slide {
     display: flex;
     align-items: center;
     animation: scroll 30s linear infinite;
-}
-
-.logo-slide:hover {
-    animation-play-state: paused;
+    width: calc(200%); /* Twice the content to accommodate seamless looping */
 }
 
 .logo-slide img {
-    padding: 0 30px; /* Increased padding */
-    height: 60px;    /* Reduced height */
-    flex-shrink: 0;
+    padding: 0 30px;
+    height: 60px;
+    flex-shrink: 0; /* Prevent images from shrinking */
+	border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	
+}
+
+.logo-slide:hover {
+    animation-play-state: paused; /* Pauses animation on hover */
 }
 
 @keyframes scroll {
     0% {
-        transform: translateX(0);
+        transform: translateX(0); /* Start at the beginning */
     }
     100% {
-        transform: translateX(-50%);
+        transform: translateX(-50%); /* Move through half the content */
+    }
+}
+
+@media (max-width: 768px) {
+    .logo-slide {
+        animation: scroll 15s linear infinite; /* Slower on smaller screens */
     }
 }
