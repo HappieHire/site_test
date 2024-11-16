@@ -13,7 +13,7 @@
 		<meta name="author" content="okler.net">
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="img/logo.ico" type="image/x-icon" />
 		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -141,7 +141,17 @@
 									</div>
 								</div>
 								<div class="row">
-									<div class="form-group col">
+									<div class="form-group col-lg-6">
+										<label class="form-label mb-1 text-2">Mobile Number (India)</label>
+										<input type="tel" pattern="^[6-9]\d{9}$" 
+											data-msg-required="Please enter your mobile number." 
+											data-msg-pattern="Please enter a valid Indian mobile number." 
+											maxlength="10" 
+											class="form-control text-3 h-auto py-2" 
+											name="mobile" 
+											required>
+									</div>
+									<div class="form-group col-lg-6">
 										<label class="form-label mb-1 text-2">Subject</label>
 										<input type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control text-3 h-auto py-2" name="subject" required>
 									</div>
