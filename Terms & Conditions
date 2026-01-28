@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms & Conditions | Happiehire</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.7;
+      color: #333;
+    }
+    h1, h2 {
+      color: #222;
+    }
+    h1 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 10px;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .last-updated {
+      font-style: italic;
+      color: #666;
+    }
+    .contact-box {
+      background: #f9f9f9;
+      padding: 15px;
+      border-left: 4px solid #ccc;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>Terms & Conditions</h1>
+<p class="last-updated">Last updated: 01 January 2026</p>
+
+<p>
+These Terms & Conditions govern the use of the website
+<strong>happiehire.com</strong> and the services provided by
+<strong>Aatral HR Consulting LLP</strong>, operating under the brand name
+<strong>Happiehire</strong> (“we”, “our”, “us”).
+By accessing or using our website or services, you agree to be bound by these
+Terms & Conditions.
+</p>
+
+<h2>1. About the Company</h2>
+<p>
+Happiehire is a brand owned and operated by <strong>Aatral HR Consulting LLP</strong>,
+a legally registered business entity in India. All services, communications, and
+transactions are managed by Aatral HR Consulting LLP.
+</p>
+
+<h2>2. Scope of Services</h2>
+<p>
+We provide business-related services and solutions as offered on our website or
+through direct communication channels, including WhatsApp, email, or phone.
+</p>
+<p>
+Service details may change from time to time without prior notice.
+</p>
+
+<h2>3. User Eligibility</h2>
+<p>By using our services, you confirm that:</p>
+<ul>
+  <li>You are at least 18 years of age</li>
+  <li>The information you provide is accurate and complete</li>
+  <li>You are legally capable of entering into a binding agreement</li>
+</ul>
+
+<h2>4. WhatsApp Communication & User Consent</h2>
+<ul>
+  <li>Users who voluntarily opt in may receive service-related, transactional, or utility messages via WhatsApp</li>
+  <li>Messages are sent only to opted-in users</li>
+  <li>No unsolicited or spam messages are sent</li>
+  <li>Users may opt out at any time by replying <strong>STOP</strong></li>
+</ul>
+<p>
+This communication strictly follows WhatsApp Business Messaging Policies.
+</p>
+
+<h2>5. User Responsibilities</h2>
+<p>You agree not to:</p>
+<ul>
+  <li>Use our services for unlawful or fraudulent purposes</li>
+  <li>Misuse or attempt to disrupt our systems</li>
+  <li>Violate any applicable laws or regulations</li>
+  <li>Send false, misleading, or harmful information</li>
+</ul>
+
+<h2>6. Intellectual Property</h2>
+<p>
+All content on this website, including text, logos, graphics, and branding,
+is the intellectual property of <strong>Aatral HR Consulting LLP</strong> and/or
+<strong>Happiehire</strong>, unless otherwise stated.
+</p>
+<p>
+Unauthorized use, reproduction, or distribution is strictly prohibited.
+</p>
+
+<h2>7. Limitation of Liability</h2>
+<p>To the maximum extent permitted by law:</p>
+<ul>
+  <li>We shall not be liable for any indirect, incidental, or consequential damages</li>
+  <li>We do not guarantee uninterrupted or error-free services</li>
+</ul>
+
+<h2>8. Third-Party Links</h2>
+<p>
+Our website may contain links to third-party websites or services.
+We are not responsible for their content, terms, or privacy practices.
+</p>
+
+<h2>9. Termination of Services</h2>
+<p>
+We reserve the right to suspend or terminate access to our services if these
+Terms & Conditions are violated or if required by law.
+</p>
+
+<h2>10. Governing Law</h2>
+<p>
+These Terms & Conditions shall be governed by and interpreted in accordance with
+the laws of India. Any disputes shall be subject to the jurisdiction of Indian courts.
+</p>
+
+<h2>11. Changes to Terms</h2>
+<p>
+We may update these Terms & Conditions at any time. Updated terms will be posted
+on this page with a revised “Last updated” date.
+</p>
+
+<h2>12. Contact Information</h2>
+<div class="contact-box">
+  <p><strong>Business Name:</strong> Aatral HR Consulting LLP</p>
+  <p><strong>Brand Name:</strong> Happiehire</p>
+  <p><strong>Email:</strong> <a href="mailto:sales@happiehire.com">sales@happiehire.com</a></p>
+  <p><strong>Phone:</strong> +91-96200 99277</p>
+  <p><strong>Website:</strong> <a href="https://happiehire.com" target="_blank">happiehire.com</a></p>
+</div>
+
+</body>
+</html>
